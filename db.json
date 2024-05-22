@@ -1,0 +1,77 @@
+{
+    "events": [
+        {
+            "theme_id": 1,
+            "date_debut": "18/04/2024",
+            "date_fin": "19/04/2024",
+            "ville": "Marseille",
+            "finan": "FIFPL",
+            "formateur_id": 1
+        },
+        {
+            "theme_id": 2,
+            "date_debut": "20/04/2024",
+            "date_fin": "22/04/2024",
+            "ville": "Paris",
+            "finan": "DPC",
+            "formateur_id": 2
+        },
+        {
+            "theme_id": 3,
+            "date_debut": "24/04/2024",
+            "date_fin": "26/04/2024",
+            "ville": "Lyon",
+            "finan": "DPC",
+            "formateur_id": 3
+        }
+    ],
+    "themes": [
+        {
+            "id": 1,
+            "name": "La Prescription Infirmière",
+            "type": "FIFPL",
+            "bck_color": "#A3FF04",
+            "nb_jours": 2
+        },
+        {
+            "id": 2,
+            "name": "Alcool, canabis : Repérer et prendre en charge les addictions",
+            "type": "DPC",
+            "bck_color": "#071e34",
+            "nb_jours": 1
+        },
+        {
+            "id": 3,
+            "name": "Cancers du sein : prévenir, dépister et prendre en charge",
+            "type": "DPC",
+            "bck_color": "#CCFF99",
+            "nb_jours": 2
+        }
+    ],
+    "formateurs": [
+        {
+            "id": 1,
+            "nom": "Doe",
+            "prenom": "John",
+            "CP": 13000,
+            "ville": "Marseille",
+            "spe": ["FIFPL", "DPC"]
+        },
+        {
+            "id": 2,
+            "nom": "Alcaide Dell Olva",
+            "prenom": "Sylvie",
+            "CP": 75000,
+            "ville": "Paris",
+            "spe": ["DPC"]
+        },
+        {
+            "id": 3,
+            "nom": "Abounaim Gollion",
+            "prenom": "Aaouatif",
+            "CP": 69000,
+            "ville": "Lyon",
+            "spe": ["DPC"]
+        }
+    ]
+}

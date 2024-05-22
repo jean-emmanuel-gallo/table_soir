@@ -1,0 +1,22 @@
+
+th{ 
+    cursor: pointer;
+    color:#fff;
+    background-color: black;
+    border-left: 1px solid white;
+    }
+
+.bg-info {
+    background-color: black !important;
+}
+
+#monTableau {
+    width: 1323px;
+    border: 2px solid black;
+    margin: auto;
+    margin-top: 6pc;
+}
+
+td {
+    border: 1px solid black;
+}
